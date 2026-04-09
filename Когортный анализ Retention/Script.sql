@@ -18,7 +18,7 @@ with t1 as (
   diff,
   count(distinct user) as cnt
   from t1
-  where diff in (0,1,3,7, 14,30,60,90,180,270,365)
+  where diff in (0,1,2,3,4,5,6,7, 14,30,60,90,180,270,365)
   group by cohort, diff
   order by cohort, diff)
 
@@ -27,7 +27,11 @@ with t1 as (
   select cohort,
   max(case when diff=0 then cnt end) as "0",
   max(case when diff=1 then cnt end) as "1",
+  max(case when diff=2 then cnt end) as "2",
   max(case when diff=3 then cnt end) as "3",
+  max(case when diff=4 then cnt end) as "4",
+  max(case when diff=5 then cnt end) as "5",
+  max(case when diff=6 then cnt end) as "6",
   max(case when diff=7 then cnt end) as "7",
   max(case when diff=14 then cnt end) as "14",
   max(case when diff=30 then cnt end) as "30",
