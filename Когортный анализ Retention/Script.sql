@@ -18,7 +18,7 @@ with t1 as (
   diff,
   count(distinct user) as cnt
   from t1
-  where diff in (0,1,2,3,4,5,6,7, 14,30,60,90,180,270,365)
+  where diff in (0,1,2,3,4,5,6,7, 14,30,60,90,180,270,360)
   group by cohort, diff
   order by cohort, diff)
 
