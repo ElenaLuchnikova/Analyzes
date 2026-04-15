@@ -1,4 +1,4 @@
-with t1 as (
+with t_cohort as (
 	select
 		dt,
 		user,
@@ -26,6 +26,6 @@ with t1 as (
   sum(case when dt < '2024-11-01' then sale end) as "2024-10",
   sum(case when dt < '2024-12-01' then sale end) as "2024-11",
   sum(case when dt < '2025-01-01' then sale end) as "2024-12"
-from t1
+from t_cohort
 group by cohort
 order by cohort
