@@ -55,3 +55,5 @@
 4. Составление общей таблицы с присвоением ABC и XYZ групп каждому товару
  
 6. Выводы и рекомендации
+
+[ABC+XYZ анализ Zara в Google Colab](https://colab.research.google.com/drive/1rzZA82qXofI4fJ0LWRF_yJyybm47TJGE?usp=sharing)
