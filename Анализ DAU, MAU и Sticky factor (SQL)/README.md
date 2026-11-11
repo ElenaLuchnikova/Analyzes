@@ -1,3 +1,5 @@
+[Анализ в Google Colab](https://colab.research.google.com/drive/1m6nfJw3m-7Aiy8vOX81nQ6E7PpmSNKXZ#scrollTo=0eecykPcysni)
+
 **Описание задачи**
 
 У нас есть данные о продажах интернет-магазина косметики и бытовой химии за 2023-2025 годы. Известно, что с января по июнь 2024 проводились кампании по привлечению клиентов, в том числе скидки на повторную покупку с ограничением по времени - первая неделя.
@@ -20,4 +22,4 @@ Sticky Factor (коэффциент липкости, вовлечённость
 
 **Как было реализовано решение задачи**
 
-Первым этапом я рассчитала DAU, MAU и Sticky factor с помощью SQL. Затем построила  график динамики DAU, график динамики MAU и DAU (совместный) и график динамики Sticky factor. На основании  динамики исследуемых метрик я сделала выводы и предложила рекомендации.
+Первым этапом я рассчитала DAU, MAU и Sticky factor с помощью [SQL](https://github.com/ElenaLuchnikova/Analyzes/blob/main/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20DAU%2C%20MAU%20%D0%B8%20Sticky%20factor%20(SQL)/Code.sql). Затем построила  [график динамики DAU](https://github.com/ElenaLuchnikova/Analyzes/blob/main/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20DAU%2C%20MAU%20%D0%B8%20Sticky%20factor%20(SQL)/%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0%20DAU.jpg), [график динамики MAU и DAU](https://github.com/ElenaLuchnikova/Analyzes/blob/main/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20DAU%2C%20MAU%20%D0%B8%20Sticky%20factor%20(SQL)/%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0%20DAU%20%D0%B8%20MAU.jpg) и [график динамики Sticky factor](https://github.com/ElenaLuchnikova/Analyzes/blob/main/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20DAU%2C%20MAU%20%D0%B8%20Sticky%20factor%20(SQL)/%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0%20Sticky%20Factor.jpg). На основании  динамики исследуемых метрик я сделала [выводы и рекомендации](https://github.com/ElenaLuchnikova/Analyzes/blob/main/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20DAU%2C%20MAU%20%D0%B8%20Sticky%20factor%20(SQL)/Insights.md).
